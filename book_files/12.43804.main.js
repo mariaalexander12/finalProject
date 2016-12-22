@@ -1,0 +1,2 @@
+webpackJsonp([12],{1127:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t["default"]={path:"likes",getComponent:function(e,t){n.e(13,function(e){t(null,n(1128)["default"])})}}},1133:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t["default"]={path:"collections",getComponent:function(e,t){n.e(14,function(e){t(null,n(1134)["default"])})}}}});
+//# sourceMappingURL=12.43804.main.js.map

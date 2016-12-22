@@ -1,0 +1,362 @@
+.parallax_one {
+    /* The image used */
+    background-image: url("world.jpg");
+    /* Set a specific height */
+    min-height: 750px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social {
+    display: inline-block;
+    padding: 20px;
+}
+
+.btn-reddit {
+    color: fff;
+}
+
+.btn-reddit:hover {
+    color: fff;
+}
+
+.fa-reddit:before {
+    color: fff;
+}
+
+.btn-reddit:after {
+    color: fff;
+}
+
+.contact {
+    position: relative;
+    top: 10px;
+    right: 15px;
+    font-family: 'Cutive Mono', monospace;
+    color: white;
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #fff;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#center_text {
+    position: relative;
+    top: 200px;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 30px;
+}
+
+#quote {
+    position: relative;
+    top: 200px;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#about {
+    height: 180px;
+    font-size: 32px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: white;
+    color: black;
+    margin-top: 215px;
+    border: 60px #494945 solid;
+}
+
+.first_line {
+    color: black;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 30px;
+}
+
+.sec_line {
+    color: black;
+    font-family: 'Athiti', sans-serif;
+    font-size: 18px;
+}
+
+.parallax_two {
+    /* The image used */
+    background-image: url("world.jpg");
+    /* Set a specific height */
+    min-height: 350px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skills {
+    height: 750px;
+    font-size: 32px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: #494945;
+    color: white;
+    border: 60px #fff solid;
+}
+
+.skills_title {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 50px;
+}
+
+.view_here {
+    border: 2px solid #fff;
+    font-family: 'Athiti', sans-serif;
+    padding: 5px;
+}
+
+#resume {
+    display: none;
+    /* wont appear until click (jquery)*/
+}
+
+.parallax_three {
+    /* The image used */
+    background-image: url("world.jpg");
+    /* Set a specific height */
+    min-height: 150px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#projects {
+    height: 300px;
+    font-size: 32px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: #494945;
+    color: white;
+    border: 60px #fff solid;
+}
+
+.projects_title {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 50px;
+}
+
+.paren {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+}
+
+#got {
+    border: 2px solid #fff;
+    font-family: 'Athiti', sans-serif;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+#nycda {
+    border: 2px solid #fff;
+    font-family: 'Athiti', sans-serif;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+.parallax_four {
+    /* The image used */
+    background-image: url("world.jpg");
+    /* Set a specific height */
+    min-height: 150px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer{
+    font-size: 32px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: white;
+    color: black;
+    border: 60px #494945 solid;
+}
+
+.footer_name{
+    font-family: 'Athiti', sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+.footer_nycda{
+    font-family: 'Athiti', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+
+#toggle {
+    display: block;
+    width: 50px;
+    height: 40px;
+    margin: 30px auto 10px;
+    position: relative;
+    top: 20px;
+}
+
+#toggle span:after,
+#toggle span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -9px;
+}
+
+#toggle span:after {
+    top: 9px;
+}
+
+#toggle span {
+    position: relative;
+    display: block;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    transition: all 0.1s;
+    backface-visibility: hidden;
+    border-radius: 2px;
+}
+
+
+/* on activation */
+
+#toggle.on span {
+    background-color: transparent;
+}
+
+#toggle.on span:before {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+#toggle.on span:after {
+    transform: rotate(-45deg) translate(7px, -8px);
+}
+
+#toggle.on + #menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* menu appearance*/
+
+#menu {
+    position: relative;
+    color: #999;
+    width: 200px;
+    top: 20px;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+    /* just for this demo */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s;
+}
+
+#menu:after {
+    position: absolute;
+    top: -15px;
+    left: 95px;
+    content: "";
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid white;
+}
+
+ul,
+li,
+li a {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    padding: 5px;
+    color: #888;
+    text-decoration: none;
+    /*transition: all .2s;*/
+}
+
+li a:hover,
+li a:focus {
+    background: #666666;
+    color: #fff;
+}
+
+
+/* media queries */
+
+@media (max-width: 1000px) { 
+	.parallax_two, .parallax_three, .parallax_four{
+		display: none;
+	}
+
+@media (max-width: 1195px) { 
+	#about{
+		padding-bottom: 600px;
+	}
+
+@media (max-width: 1195px) { 
+	.sec_line{
+		font-size: 15px;
+	}
+
+@media (max-width: 1195px) { 
+	#skills{
+		padding-top: 300px;
+	}
+
+
+
