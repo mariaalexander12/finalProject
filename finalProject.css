@@ -12,9 +12,12 @@
 
 .social {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
+/*
 .btn-reddit {
     color: fff;
 }
@@ -30,6 +33,7 @@
 .btn-reddit:after {
     color: fff;
 }
+*/
 
 .contact {
     position: relative;
@@ -44,9 +48,9 @@
     border: 2px solid #fff;
 }
 
-a{
-	text-decoration: none;
-	color: white;
+.contact a{
+	text-decoration: none !important;
+	color: white !important;
 }
 
 #center_text {
@@ -54,7 +58,7 @@ a{
     top: 200px;
     color: white;
     font-family: 'Cutive Mono', monospace;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 #quote {
@@ -63,6 +67,9 @@ a{
     color: white;
     font-family: 'Cutive Mono', monospace;
 }
+.container-fluid{
+	padding: 0 !important;
+}
 
 p {
     margin: 0;
@@ -70,12 +77,11 @@ p {
 }
 
 #about {
-    height: 180px;
     font-size: 32px;
-    padding-bottom: 150px;
-    padding-top: 100px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: white;
     color: black;
     margin-top: 215px;
@@ -86,12 +92,14 @@ p {
     color: black;
     font-family: 'Cutive Mono', monospace;
     font-size: 30px;
+    text-align: center;
 }
 
 .sec_line {
     color: black;
     font-family: 'Athiti', sans-serif;
     font-size: 18px;
+    text-align: center;
 }
 
 .parallax_two {
@@ -107,27 +115,29 @@ p {
 }
 
 #skills {
-    height: 750px;
-    font-size: 32px;
-    padding-bottom: 150px;
-    padding-top: 100px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #494945;
     color: white;
     border: 60px #fff solid;
+    font-size: 28px;
 }
 
 .skills_title {
     color: white;
     font-family: 'Cutive Mono', monospace;
-    font-size: 50px;
+    text-align: center;
+    font-size: 42px;
 }
 
-.view_here {
+#view_here {
     border: 2px solid #fff;
     font-family: 'Athiti', sans-serif;
     padding: 5px;
+    text-align: center;
+    float: none;
 }
 
 #resume {
@@ -148,12 +158,11 @@ p {
 }
 
 #projects {
-    height: 300px;
     font-size: 32px;
-    padding-bottom: 150px;
-    padding-top: 100px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #494945;
     color: white;
     border: 60px #fff solid;
@@ -163,12 +172,15 @@ p {
     color: white;
     font-family: 'Cutive Mono', monospace;
     font-size: 50px;
+    text-align: center;
 }
 
 .paren {
     color: white;
     font-family: 'Cutive Mono', monospace;
     font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 #got {
@@ -177,6 +189,8 @@ p {
     padding: 5px;
     color: white;
     font-size: 25px;
+    text-align: center;
+    float: none;
 }
 
 #nycda {
@@ -185,6 +199,8 @@ p {
     padding: 5px;
     color: white;
     font-size: 25px;
+    text-align: center;
+    float: none;
 }
 
 .parallax_four {
@@ -201,10 +217,10 @@ p {
 
 #footer{
     font-size: 32px;
-    padding-bottom: 150px;
-    padding-top: 100px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: white;
     color: black;
     border: 60px #494945 solid;
@@ -336,7 +352,7 @@ li a:focus {
 }
 
 
-/* media queries */
+/* media queries 
 
 @media (max-width: 1000px) { 
 	.parallax_two, .parallax_three, .parallax_four{
@@ -357,6 +373,13 @@ li a:focus {
 	#skills{
 		padding-top: 300px;
 	}
+*/
 
+@media (max-width: 950px) { 
+	#resume{
+		height: 300px;
+		width: 400px;
+	}
+}
 
 

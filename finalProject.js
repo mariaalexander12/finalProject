@@ -4,8 +4,7 @@ $(document).ready(function(){
 });*/
 
 
-//below code is not my own 
-//(taken via codepen for drop down)
+//dropdown code
 var theToggle = document.getElementById('toggle');
 
 
@@ -47,7 +46,7 @@ theToggle.onclick = function() {
     return false;
 }
 
-//code above is not my own 
+//above is end up drop down menu code
 //code below is original 
 
 //this delays & fades in txt on landing
@@ -56,8 +55,13 @@ $(document).ready(function() {
 });
 
 //slide down feature to view resume 
-$("#clickme").click(function() {
+/*$("#clickme").click(function() {
     $("#resume").slideDown("slow", function() {});
+});*/
+
+//slide down/slide up feature to view resume
+$("#clickme").click(function() {
+    $("#resume").toggle("slow", function() {});
 });
 
 //project links
